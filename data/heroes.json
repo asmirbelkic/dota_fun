@@ -1,0 +1,728 @@
+{
+	"text": [{
+		"search":"Nom du heros",
+		"footer":"© 2020 by Asmir Belkic with ❤️"
+	}],
+	"heroes": [{
+			"name": "Anti-Mage",
+			"tips": ["L'immunité aux sorts empêche l'Anti-Mage de consumer du mana ou d'infliger des dégâts supplémentaires grâce à Mana Break."],
+			"tag": "antimage",
+			"type": "agility",
+			"id": 1
+		},
+		{
+			"name": "Axe",
+			"tips": ["Les effets du Battle Hunger d'Axe peuvent être dissipés en portant le dernier coup sur un creep allié ou ennemi.", "Le Berserker's Call d'Axe ignore l'immunité aux sorts, ce qui permet de combattre les ennemis qui possèdent une Black King Bar.", "Utiliser l'Eul's Scepter of Divinity sur Axe après qu'il a activé Berserker's Call permet de réduire les dégâts qu'il inflige avec Counter Helix.", "Axe obtient un bonus de vitesse de déplacement pour chaque héros ennemi sous l'effet de Battle Hunger. Les creeps ennemis donnent la moitié du bonus.", "Counter Helix fonctionne sur les illusions d'Axe (runes d'Illusion ou Manta Style).", "La Culling Blade d'Axe peut tuer les cibles sous l'effet du Shallow Grave de Dazzle ou du False Promise de l'Oracle.", "Vous pouvez utiliser Culling Blade de l'Axe pour tuer le coursier."],
+			"tag": "axe",
+			"type": "strength",
+			"id": 2
+		},
+		{
+			"name": "Bane",
+			"tips": ["Attaquer un allié qui est sous l'effet du Nightmare de Bane le sortira du cauchemar, mais vous y plongera à sa place.", "Bane peut annuler son Nightmare à n'importe quel moment, sur les ennemis ou unités alliées.", "Quand Bane lance Nightmare, cela donne à la cible un bref moment d'invulnérabilité. Ceci peut être utilisé pour atténuer les dégâts qui seront infligés aux alliés.", "Bane a beaucoup de capacités à cible unique, ce qui rend la Linken's Sphere et le Lotus Orb très efficaces lorsqu'ils sont utilisés contre lui.", "Bien que la capacité Enfeeble de Bane puisse se révéler très puissante contre les ennemis qui s'appuient sur des attaques physiques, celle-ci peut être dissipée par des objets comme Black King Bar."],
+			"tag": "bane",
+			"id": 3
+		},
+		{
+			"name": "Bloodseeker",
+			"tips": ["Vous pouvez utiliser un Town Portal Scroll alors que vous êtes sous l'effet de Rupture du Bloodseeker, et ce sans subir de dégâts supplémentaires.", "Quand le Bloodseeker applique Bloodrage aux ennemis, cela augmente les dégâts provenant de toutes les autres attaques qu'ils subissent. Cependant, cela augmente aussi les dégâts qu'ils infligent, il faut donc l'utiliser avec précaution.", "En lançant Bloodrage sur un allié, le Bloodseeker peut les aider à guérir rapidement en tuant les creeps à proximité.", "Bloodrage du Bloodseeker augmente les dégâts infligés par les capacités et les objets, tels que Blood Rite et Rupture, ainsi que les attaques physiques.", "La Linken's Sphere bloquera Rupture de Bloodseeker, et peut être un investissement intéressant pour certains héros face à Bloodseeker.", "Bloodrage du Bloodseeker ne coûte aucun point de mana, mais augmente les charges du Magic Stick ou de la Magic Wand. Ceci peut être très utile contre lui en début de partie.", "Thrist du Bloodseeker lui permet de dépasser la limite normale de 550 en vitesse de déplacement.", "Si vous avez assez de PV, la Blade Mail peut renvoyer efficacement les dégâts de Rupture infligés par le Bloodseeker."],
+			"tag": "bloodseeker",
+			"type": "agility",
+			"id": 4
+		},
+		{
+			"name": "Crystal Maiden",
+			"tips": ["Le Frostbite de Crystal Maiden, comme les autres enracinements, peut empêcher un ennemi d'utiliser un Town Portal Scroll.", "Crystal Nova de Crystal Maiden donne un peu de vision sur le terrain ciblé, et peut être très utile pour explorer des zones cachées ou chercher des ennemis qui essaient de s'enfuir au milieu des arbres.", "Comme la plupart des autres enracinements, le Frostbite de Crystal Maiden peut être contré par dissipation grâce à des objets comme l'Eul's Scepter of Divinity ou le Manta Style.", "Le talent de niveau 15 de la Crystal Maiden pour Arcane Aura (réduction du coût et de la perte de mana) fonctionne bien contre les ennemis qui s'appuient sur la consommation de mana pour effectuer des dégâts, comme Anti-Mage ou Nyx Assassin."],
+			"tag": "crystal_maiden",
+			"id": 5
+		},
+		{
+			"name": "Drow Ranger",
+			"tips": ["Les Frost Arrows de la Drow Ranger n'attireront pas les creeps si vous les lancez manuellement (en appuyant sur la touche assignée) plutôt qu'automatiquement (en effectuant un clic droit sur le sort). Vous pouvez utiliser cette technique pour attaquer vos ennemis en phase de lane.", "Gust de la Drow Ranger n'interrompt pas les unités ennemies ni n'annule les canalisations d'objets comme le Town Teleport Scroll. Les héros ennemis repoussés par Gust peuvent toujours utiliser des objets et attaquer.", "Drow Ranger peut activer sa capacité Precision Aura et augmenter ainsi la vitesse d'attaque des catapultes qui attaquent les tours.", "Lorsque la Drow Ranger possède l'Aghanim's Scepter, tous les modificateurs, tels que les Frost Arrows ou les éclairs du Maelstrom, sont appliqués à ses attaques fractionnées.", "Drow Ranger s'appuie sur sa capacité à garder à distance les ennemis, ce qui la rend vulnérable aux engagements avec la Blink Dagger ou la Shadow Blade."],
+			"tag": "drow_ranger",
+			"id": 6
+		},
+		{
+			"name": "Earthshaker",
+			"tips": ["L'Echo Slam de l'Earthshaker inflige davantage de dégâts lorsque de nombreuses unités ennemies sont dans la zone. Dispersez-vous lorsque vous êtes contre l'Earthshaker.", "La Fissure de l'Earthshaker sépare les unités d'un côté ou de l'autre, ce qui lui permet de mettre des alliés ou des ennemis dans des positions plus avantageuses.", "Les dégâts bonus de l'Earthshaker obtenus grâce à Enchant Totem durent plus longtemps que le temps de recharge du sort, ce qui lui permet d'infliger d'importants dégâts physiques avant et pendant les combats.", "L'Earthshaker utilise principalement des objets comme la Blink Dagger ou le Force Staff pour se positionner correctement et ainsi utiliser ses sorts à bon escient. Réduire sa mobilité est essentiel pour limiter les dégâts qu'il pourrait faire.", "Enchant Totem de l'Earthshaker dispose de True Strike, ce qui le rend très efficace contre des héros évasifs, tels que la Phantom Assassin, ou des objets comme la Butterfly.", "Contrairement aux autres capacités de l'Earthshaker, l'Echo Slam dispose d'un temps d'incantation très court. Cette capacité peut être utilisée au début des combats avant que ses ennemis n'aient le temps d'utiliser leurs objets défensifs.", "La longue portée de la Fissure permet de bloquer un ennemi sur le point de s'échapper, voire d'empêcher aux creeps alliés d'avancer pendant quelques secondes.", "L'Earthshaker s'avère être un héros extrêmement utile grâce à ses étourdissements. L'immunité aux sorts, comme celle procurée par une Black King Bar, permet de réduire drastiquement son efficacité."],
+			"tag": "earthshaker",
+			"id": 7
+		},
+		{
+			"name": "Juggernaut",
+			"tips": ["L'Omnislash du Juggernaut attaque aléatoirement les unités à proximité ; rassemblez-vous autour du Juggernaut pour subir chacun quelques dégâts. Autrement, toutes les attaques seront dirigées sur un seul et même héros.", "La Blade Fury du Juggernaut accorde l'immunité aux sorts et peut ainsi être utilisée pour s'échapper à l'aide d'un Town Portal Scroll.", "Le Juggernaut peut utiliser une Blink Dagger pendant Omnislash pour attaquer des cibles qu'il ne pourrait pas atteindre autrement.", "L'Omnislash de Juggernaut inflige des dégâts physiques qui peuvent être complètement annulés en utilisant le Ghost Scepter ou l'Eul's Scepter of Divinity.", "Les attaques classiques de Juggernaut n'infligent pas de dégâts quand la Blade Fury est active, sauf aux bâtiments et aux Wards.", "Healing Ward est extrêmement efficace pour soigner l'équipe du Juggernaut et peut constituer une cible prioritaire pour les ennemis pendant les combats d'équipe."],
+			"tag": "juggernaut",
+			"id": 8
+		},
+		{
+			"name": "Mirana",
+			"tips": ["Les Sacred Arrows de la Mirana passent à travers ses alliés.", "Lorsque Mirana possède l'Aghanim's Scepter, Starstorm ne se déclenchera pas si elle est invisible, ce qui lui permet de se positionner stratégiquement avant de l'utiliser.", "Sacred Arrow de Mirana a un temps de parcours important. Si un coéquipier peut effectuer un disable, cela augmentera beaucoup les chances de Mirana de frapper les héros ennemis.", "Sacred Arrow de Mirana peut être très utile pour explorer les parties sombres de la carte.", "Vous pouvez utiliser Moonlight Shadow de Mirana de manière offensive pour porter des attaques furtives contre l'équipe ennemie.", "Porter de la Dust of Appearance ou une Sentry Ward peut être décisif pour vaincre une équipe avec Mirana.", "Les capacités avec un fort pouvoir de dissipation, telles que l'Aphotic Shield d'Abaddon, sont excellentes pour annuler un long étourdissement sur un allié causé par Sacred Arrow de Mirana."],
+			"tag": "mirana",
+			"id": 9
+		},
+		{
+			"name": "Shadow Fiend",
+			"tips": ["Le Requiem of Souls du Shadow Fiend sera activé lors de sa mort, même s'il est interrompu.", "Necromastery du Shadow Fiend joue un rôle clé dans l'importance des dégâts qu'il inflige. Après sa mort, le Shadow Fiend sera considérablement plus faible jusqu'à ce qu'il retrouve ses âmes perdues.", "Shadow Fiend excelle à tuer très rapidement les creeps normaux et neutres. Si vous lui refusez de telles occasions, son efficacité en sera beaucoup amoindrie plus tard dans le jeu.", "Le Shadow Fiend dispose d'une réserve de santé et d'une mobilité relativement faibles. Il peut être une cible prioritaire des ennemis qui infligent de lourds dégâts rapidement.", "Requiem of Souls du Shadow Fiend a un temps d'incantation relativement long et peut être annulé par les ennemis ou par le Shadow Fiend lui-même, sans rechargement ou coût de mana.", "Si les effets des dégâts sont importants, cela peut signifier que Shadow Fiend peut être sensible à la Blade Mail utilisée par l'équipe ennemie."],
+			"tag": "nevermore",
+			"id": 10
+		},
+		{
+			"name": "Morphling",
+			"tips": ["Réduire au silence un Morphling peut être un excellent moyen de le terrasser.", "Morphling peut utiliser des objets et des capacités pendant Waveform, comme l'Ethereal Blade ou le Town Portal Scroll.", "En revenant à sa forme après l'état Morph, la santé et le mana de Morphling sont réinitialisés à leurs valeurs antérieures à sa transformation.", "Les capacités qui annulent la guérison, comme Ice Blast de l'Ancient Apparition, empêcheront Morphling de régénérer sa santé lorsqu'il change d'attributs.", "Morphling continuera de changer ses attributs même s'il est sous l'effet de disable ou réduit au silence."],
+			"tag": "morphling",
+			"id": 11
+		},
+		{
+			"name": "Phantom Lancer",
+			"tips": ["Le Phantom Lancer achète souvent une Diffusal Blade : l'immunité aux sorts d'une Black King Bar peut être utilisée pour contrer cet effet.", "Le Phantom Lancer s'appuie sur ses nombreuses illusions pour infliger la plupart de ses dégâts. Il peut être avantageux d'investir dans des objets qui permettront de tuer rapidement ces illusions, tels que Shiva's Guard ou Mjollnir.", "Le Phantom Lancer peut utiliser Doppelganger pour dissiper certains effets négatifs et éviter des projectiles.", "Les illusions du Phantom Lancer qui sont créées par les capacités ennemies, telles que Disruption de Shadow Demon ou Reflection de Terrorblade, auront toujours une chance de se diviser en davantage d'illusions.", "Interrompre Phantom Lancer, à partir d'un objet comme Silver Edge ou d'une capacité comme Nethertoxin de Viper, empêchera Phantom Lancer de créer des illusions supplémentaires à partir de Juxtapose."],
+
+			"tag": "phantom_lancer",
+			"id": 12
+		},
+		{
+			"name": "Puck",
+			"tips": ["Réduire au silence un Puck peut être un excellent moyen de le terrasser.", "Puck peut annuler Phase Shift à tout moment en utilisant une capacité ou un objet.", "Si le talent du niveau 25 est choisi (« Attaque rapidement les ennemis affectés par Dream Coil »), Puck continuera à attaquer les ennemis affectés par Dream Coil même pendant Phase Shift.", "Si les adversaires s'appuient beaucoup sur leur immunité magique, Puck peut choisir d'acheter un Aghanim's Scepter pour s'assurer que Dream Coil reste un puissant disable.", "Puck a de nombreuses capacités de zone, et il est crucial de rester éloigné lorsqu'il joue dans l'équipe adverse.", "Les capacités défensives de Puck ayant un temps d'incantation très court, l'équipe adverse peut choisir de commencer le combat en s'attaquant rapidement à Puck grâce à des objets comme la Blink Dagger ou la Shadow Blade."],
+
+			"tag": "puck",
+			"id": 13
+		},
+		{
+			"name": "Pudge",
+			"tips": ["Le Dismember du Pudge est une capacité à canalisation et peut être interrompue en le réduisant au silence ou en l'étourdissant.", "Pudge attaque souvent depuis des angles inattendus. Avoir une bonne visibilité grâce à des Observer Wards augmentera considérablement la capacité de survie de l'équipe adverse.", "Pudge peut utiliser Meat Hook pour ramener les runes à lui ou les laisser dans un endroit sûr pour ses alliés, et ce sans utiliser aucun point de mana.", "Meat Hook de Pudge ramène les cibles et leur inflige des dégâts même si elles sont immunisées contre les sorts. Cependant, si la cible est immunisée contre les sorts, elle peut toujours utiliser ses objets, et les sorts de canalisation ne seront pas interrompus.", "Rot de Pudge inflige des dégâts magiques à son adversaire ainsi qu'à lui-même. Il choisit donc souvent d'investir dans des objets qui offrent une résistance à la magie pour limiter ces dégâts.", "Meat Hook de Pudge ramène les alliés sans leur infliger de dégâts. Cette capacité peut donc être utilisée pour les tirer hors de danger.", "Avec un bon timing, Pudge peut lancer Rot sur lui-même et se tuer, ce qui privera ses adversaires de récompenses d'or et d'expérience appréciables.", "Même si Pudge est caché, l'effet audio de Dismember peut être entendu par tout le monde, ce qui permet donc de deviner ce que Pudge est en train de faire.", "La capacité Dismember de Pudge étourdit une cible même si celle-ci est immunisée contre la magie, cependant elle n'infligera aucun dégât.", "Pudge a naturellement une faible armure. Toutes les attaques physiques, en particulier si elles sont associées à des capacités de réduction d'armure, peuvent donc être fatales pour le héros.", "La capacité Dismember de Pudge peut être brisée en utilisant une forte dissipation sur sa victime, telle que Aphotic Shield d'Abaddon ou Press the Attack de Legion Commander."],
+
+			"tag": "pudge",
+			"id": 14
+		},
+		{
+			"name": "Razor",
+			"tips": ["Plus une cible est loin, plus le Plasma Field du Razor inflige de dégâts.", "Plasma Field fournit une vision à Razor, ce qui lui permet de chercher des ennemis cachés dans les arbres ou en hauteur.", "Rien ne peut casser le lien créé par Static Link de Razor, il est donc impératif de sortir le plus rapidement possible de sa zone de portée.", "Quand la capacité Static Link est active, Razor voit sa cible même si elle est invisible.", "Razor s'appuie sur sa vitesse de mouvement rapide pour poursuivre les ennemis touchés par Eye of the Storm ou dont il absorbe les points de dégâts avec Static Link. Les objets qui l'empêchent de se déplacer, comme le Rod of Atos, peuvent être un bon moyen de le contrer.", "Eye of the Storm de Razor visera en priorité les cibles qui sont touchées par Static Link.", "Vous pouvez créer une deuxième tempête avec Eye of the Storm, en utilisant par exemple un Refresher Orb. Cette tempête viendra s'ajouter à la première."],
+
+			"tag": "razor",
+			"id": 15
+		},
+		{
+			"name": "Sand King",
+			"tips": ["L'Epicenter du Sand King continuera de retentir jusqu'à sa fin, même si le Sand King meurt.", "Grâce à Sand Storm et Burrowstrike, Sand King peut éviter des dégâts et déjouer les plans des ennemis en devenant invisible et en creusant sous des endroits infranchissables.", "Porter des moyens de détection comme la Dust of Appearance ou utiliser une capacité de désactivation ou de réduction au silence qui vise les unités au sol comme Waning Rift de Puck, peut être très important quand on essaie d'attraper le Sand King pendant sa Sand Storm.", "Caustic Finale de Sand King peut affecter plusieurs unités à la fois, cette capacité peut donc infliger d'énormes dégâts.", "Sand King inflige d'énormes dégâts magiques qui peuvent être réduits par des objets qui offrent une résistance ou une immunité à la magie comme la Pipe of Insight ou la Black King Bar.", "Réduire au silence ou assommer Sand King avant qu'il ait fini de canaliser Epicenter, met cette capacité en recharge sans nuire à l'équipe ennemie. La visibilité apportée par les Observer Wards est importante pour garder un œil sur le positionnement de Sand King avant les combats d'équipe."],
+
+			"tag": "sand_king",
+			"id": 16
+		},
+		{
+			"name": "Storm Spirit",
+			"tips": ["Réduire au silence un Storm Spirit peut être un excellent moyen de le terrasser.", "Storm Spirit est invulnérable durant Ball Lightning, ce qui lui permet de s'échapper et d'éviter un grand nombre d'étourdissements et d'attaques.", "Le Storm Spirit peut utiliser des objets et des capacités durant Ball Lightning, ce qui est particulièrement utile s’il décide d'attaquer des ennemis peu méfiants ou de se téléporter jusqu'à la base.", "La capacité Overload s'active après que Storm Spirit utilise une autre de ses capacités, y compris Ball Lightning. Il peut être donc avantageux d'utiliser une capacité entre chaque attaque pour maximiser les dégâts infligés par Storm Spirit.", "Non seulement la capacité Ball Lightning est un excellent moyen de se déplacer, mais elle peut aussi infliger beaucoup de dégâts quand elle est utilisée à distance. Pour vous assurer que Storm Spirit inflige des dégâts importants, il vaut mieux qu'il attaque à distance et en premier.", "Storm Spirit est tributaire de son mana pour attaquer. Les objets et les capacités qui visent les réserves de mana, comme Diffusal Blade ou Mana Burn de Nyx Assassin, peuvent être dévastateurs pour Storm Spirit.", "L'invulnérabilité de Storm Spirit durant Ball Lightning signifie qu'il est insensible à la plupart des effets négatifs des sorts qui affectent les déplacements, comme Rupture de Bloodseeker."],
+
+			"tag": "storm_spirit",
+			"id": 17
+		},
+		{
+			"name": "Sven",
+			"tips": ["Le Great Cleave de Sven inflige des dégâts physiques dans une zone, mais ces dégâts n'outrepassent pas l'armure.", "La capacité Warcry de Sven augmente sa vitesse de déplacement et celles de ses alliés à proximité, et confère un bouclier qui réduit les dégâts des attaques jusqu'à sa destruction.", "Sven doit être proche de ses ennemis pour infliger d'énormes dégâts. Limiter sa mobilité avec des objets comme le Rod of Atos ou des capacités comme Sprout de Nature's Prophet est idéal pour limiter les dégâts infligés par God's Strength.", "La majorité des dégâts de Sven viennent de ses attaques physiques et peuvent être annulés avec un objet comme la Heaven's Halberd.", "Pour vous protéger efficacement contre Sven, vous pouvez utiliser des objets qui augmentent l'évasion, comme la Butterfly ou le Solar Crest, ou vous immuniser contre les attaques physiques, grâce au Ghost Scepter par exemple.", "God's Strength de Sven peut être utile non seulement dans les combats d'équipe, mais aussi pour détruire des tours ennemies ou tuer Roshan."],
+
+			"tag": "sven",
+			"id": 18
+		},
+		{
+			"name": "Tiny",
+			"tips": ["Les unités sous l'effet du Toss de Tiny subissent le triple des dégâts d'Avalanche.", "Toss de Tiny interrompt les capacités à canalisation, même celles utilisées par les héros alliés.", "Les dégâts de zone infligés par Tree Grab de Tiny dépendent de l'armure de la cible, et sont sensibles à Spell Lifesteal et à l'amplification des dégâts des sorts.", "Au début de la partie, Tiny s'appuie sur les dégâts magiques. Les Infused Raindrops limiteront beaucoup les dégâts qu'il inflige.", "Les lourds dégâts infligés par Tiny peuvent être plus ou moins limités grâce à des objets comme l'Aeon Disk.", "Tiny a une vitesse d'attaque très faible et s'appuie sur les objets et les effets positifs de ses alliés pour augmenter sa vitesse d'attaque et continuer d'infliger de lourds dégâts.", "Tiny n'a pas d'armure de base, il est donc très sensible aux attaques physiques et aux capacités qui réduisent l'armure."],
+
+			"tag": "tiny",
+			"id": 19
+		},
+		{
+			"name": "Vengeful Spirit",
+			"tips": ["La Vengeance Aura de la Vengeful Spirit augmente les dégâts de base et les dégâts accordés par l'attribut principal des héros. Les autres dégâts, tels que ceux d'une Divine Rapier, ne seront pas augmentés.", "Le Nether Swap de Vengeful Spirit interrompt aussi bien les sorts de canalisation des alliés que ceux des ennemis.", "L'illusion de Vengeful Spirit accordée par son Aghanim's Scepter peut toujours être instantanément tuée par des capacités comme Mana Drain de Lion ou des objets comme la Scythe of Vyse."],
+
+			"tag": "vengefulspirit",
+			"id": 20
+		},
+		{
+			"name": "Windranger",
+			"tips": ["La Windranger peut choisir de ne pas attaquer la cible choisie par Focus Fire : en attaquant une autre cible ou en appuyant sur la touche assignée à la commande « Annuler l'action »."],
+
+			"tag": "windrunner",
+			"id": 21
+		},
+		{
+			"name": "Zeus",
+			"tips": ["Le Lightning Bolt du Zeus peut être lancé sur le sol pour révéler les unités invisibles à proximité, dont les Wards."],
+
+			"tag": "zuus",
+			"id": 22
+		},
+		{
+			"name": "Kunkka",
+			"tips": ["Acheter un Aeon Disk en fin de partie peut permettre de contrer un Kunkka qui possède de nombreux objets de dégâts."],
+
+			"tag": "kunkka",
+			"id": 23
+		},
+		{
+			"name": "Lina",
+			"tips": ["La Laguna Blade de Lina ignorera l'immunité aux sorts si elle achète un Aghanim's Scepter."],
+
+			"tag": "lina",
+			"id": 24
+		},
+		{
+			"name": "Lich",
+			"tips": ["La capacité Sinister Gaze de Lich lui permet d'hypnotiser un héros ennemi, ce qui l'oblige à s'avancer vers lui.", "La capacité Frost Shield de Lich peut être lancée sur des bâtiments alliés."],
+
+			"tag": "lich",
+			"id": 25
+		},
+		{
+			"name": "Lion",
+			"tips": ["Le Mana Drain et le Hex du Lion détruisent instantanément les illusions."],
+			"tag": "lion",
+			"id": 26
+		},
+		{
+			"name": "Shadow Shaman",
+			"tips": ["Le blocage de dégâts (tel que celui d'un Crimson Guard) n'est pas appliqué aux Mass Serpent Wards du Shadow Shaman."],
+			"tag": "shadow_shaman",
+			"id": 27
+		},
+		{
+			"name": "Slardar",
+			"tips": ["Le Corrosive Haze du Slardar accorde True Sight et une vision de la cible."],
+			"tag": "slardar",
+			"id": 28
+		},
+		{
+			"name": "Tidehunter",
+			"tips": ["Le Kraken Shell du Tidehunter accordera une dissipation forte au Tidehunter après qu'il a subi de nombreux dégâts en une brève période de temps."],
+
+			"tag": "tidehunter",
+			"id": 29
+		},
+		{
+			"name": "Witch Doctor",
+			"tips": ["La Blade Mail ne renverra pas les dégâts de la Death Ward du Witch Doctor ; la source des dégâts est la Ward, et non le Witch Doctor."],
+
+			"tag": "witch_doctor",
+			"id": 30
+		},
+		{
+			"name": "Riki",
+			"tips": ["Riki est invulnerable et invisible pendant Tricks of the Trade, et ne peut pas être révélé par True Sight pendant ce sort."],
+			"tag": "riki",
+			"id": 31
+		},
+		{
+			"name": "Enigma",
+			"tips": ["Le Midnight Pulse de l'Enigma inflige des dégâts selon le pourcentage de PV maximum de la cible."],
+			"tag": "enigma",
+			"id": 32
+		},
+		{
+			"name": "Tinker",
+			"tips": ["Les Heat-Seeking Missiles du Tinker ne cibleront que les cibles vues par le Tinker."],
+			"tag": "tinker",
+			"id": 33
+		},
+		{
+			"name": "Sniper",
+			"tips": ["Le Shrapnel du Sniper n'inflige pas de dégâts aux bâtiments. Lancer plusieurs Sharpnels sur une cible ne cumulera pas ses effets."],
+			"tag": "sniper",
+			"id": 34
+		},
+		{
+			"name": "Necrophos",
+			"tips": ["Pendant Ghost Shroud, le Necrophos devient immunisé aux attaques physiques, mais il subit davantage de dégâts magiques.", "Reaper's Scythe de Necrophos inflige des dégâts après un certain temps. La victime peut être sauvée en étant soignée ou en utilisant des objets ou capacités qui protègent des dégâts pendant l'animation de Reaper's Scythe."],
+			"tag": "necrolyte",
+			"id": 35
+		},
+		{
+			"name": "Warlock",
+			"tips": ["Les dégâts infligés par Fatal Bonds du Warlock sont partagés entre plusieurs cibles, peu importe la distance entre celles-ci."],
+			"tag": "warlock",
+			"id": 36
+		},
+		{
+			"name": "Beastmaster",
+			"tips": ["Le Primal Roar du Beastmaster étourdit même les cibles immunisées aux sorts.", "Les Wild Axes du Beastmaster peuvent être utilisées pour couper des arbres et ainsi révéler les ennemis cachés.", "La capacité Inner Beast du Beastmaster affecte les héros alliés, dont les creeps et les invocations. Les unités du Necronomicon ou du Helm of the Dominator bénéficient grandement de cette aura.", "Si la cible principale du Primal Roar du Beastmaster possède une Linken's Sphere, elle ne sera pas étourdie.", "Les invocations du Beastmaster grâce au Call of the Wild peuvent s'avérer très utiles pour repérer et attaquer les héros ennemis, mais accordent un nombre important d'or et d'expérience une fois tuées.", "Une dissipation forte, telle que celle d'un Aeon Disk ou de l'Aphotic Shield de l'Abaddon, peut être utilisée pour dissiper l'étourdissement du Primal Roar du Beastmaster."],
+			"tag": "beastmaster",
+			"id": 37
+		},
+		{
+			"name": "Queen of Pain",
+			"tips": ["Le Sonic Wave de la Queen of Pain inflige des dégâts purs et outrepasse l'armure, la résistance à la magie et l'immunité aux sorts. Cette capacité inflige également des dégâts aux coursiers."],
+			"tag": "queenofpain",
+			"id": 38
+		},
+		{
+			"name": "Venomancer",
+			"tips": ["Le blocage de dégâts (tels que celui d'un Crimson Guard ou d'un Stout Shield) n'est pas appliqué aux Plague Wards du Venomancer."],
+			"tag": "venomancer",
+			"id": 39
+		},
+		{
+			"name": "Faceless Void",
+			"tips": ["Le Time Walk du Faceless Void ne lui permet pas d'éviter les projectiles. De plus, Time Walk soigne le Faceless Void ; ces soins peuvent donc être empêchés par l'Ice Blast de l'Ancient Apparition ou réduits par la Spirit Vessel."],
+			"tag": "faceless_void",
+			"id": 40
+		},
+		{
+			"name": "Wraith King",
+			"tips": ["Reincarnation de Wraith King se déclenche même si le Wraith King est interrompu. Cette capacité ne se déclenchera pas si le Wraith King n'a pas assez de mana. Cependant, un talent permet de supprimer le coût en mana de la capacité."],
+			"tag": "skeleton_king",
+			"id": 41
+		},
+		{
+			"name": "Death Prophet",
+			"tips": ["Les dégâts des esprits d'Exorcism de la Death Prophet sont des dégâts physiques et peuvent être réduits par l'armure."],
+			"tag": "death_prophet",
+			"id": 42
+		},
+		{
+			"name": "Phantom Assassin",
+			"tips": ["Un Aeon Disk ou une Blade Mail peuvent être de bons objets contre une Phantom Assassin, qui inflige de lourds dégâts."],
+			"tag": "phantom_assassin",
+			"id": 43
+		},
+		{
+			"name": "Pugna",
+			"tips": ["Le Nether Blast du Pugna inflige la moitié des dégâts aux bâtiments."],
+			"tag": "pugna",
+			"id": 44
+		},
+		{
+			"name": "Templar Assassin",
+			"tips": ["La Refraction de la Templar Assassin bloque des dégâts un certain nombre de fois, peu importe la valeur de ces dégâts."],
+			"tag": "templar_assassin",
+			"id": 45
+		},
+		{
+			"name": "Viper",
+			"tips": ["La Nethertoxin du Viper interrompt les unités touchées, et désactive ainsi leurs capacités passives. Cela peut s'avérer très utile contre des héros comme Bristleback."],
+			"tag": "viper",
+			"id": 46
+		},
+		{
+			"name": "Luna",
+			"tips": ["L'Eclipse de Luna continuera jusqu'à sa fin même si Luna est réduite au silence ou étourdie. Eclipse sera interrompu si Luna est tuée."],
+			"tag": "luna",
+			"id": 47
+		},
+		{
+			"name": "Dragon Knight",
+			"tips": ["Le Corrosive Breath accordé par la capacité Elder Dragon Form du Dragon Knight affecte à la fois les unités et les bâtiments ; cela peut s'avérer très pratique pour détruire ces derniers et gagner de l'espace sur la carte.", "La réduction de dégâts du Breathe Fire de Dragon Knight peut être utilisée lors d'échanges de coups avec un héros ennemi, ou pour l'empêcher de farmer efficacement.", "La capacité Dragon Blood du Dragon Knight lui permet d'être très résistant puisqu'elle lui apporte de l'armure et une régénération de PV accrue. L'interrompre grâce à une Silver Edge ou la Nethertoxin du Viper désactivera cette capacité passive.", "Sous sa forme draconienne, le Dragon Knight devient un héros à distance, ce qui lui permet d'utiliser des objets comme l'Hurricane Pike, mais il perd les bonus accordés par les objets de corps à corps comme l'Echo Sabre.", "Dragon Knight a besoin d'être au plus près de ses ennemis pour être efficace. Les capacités et les objets qui les ralentissent, comme Shiva's Guard ou Rod of Atos, permettent de le garder à une certaine distance.", "L'importante armure du Dragon Knight lui permet d'encaisser les dégâts physiques, elle mais peut être réduite à l'aide d'objets comme l'Assault Cuirass ou le Medaillon of Courage."],
+			"tag": "dragon_knight",
+			"id": 48
+		},
+		{
+			"name": "Dazzle",
+			"tips": ["Tant qu'une unité est sous la protection de Shallow Grave de Dazzle, elle ne peut pas mourir, peu importent les dégâts subis ou leurs sources. Cependant, les capacités provoquant une mort instantanée (telle que la Culling Blade d'Axe ou la Bloodstone) peuvent toujours tuer une unité sous l'effet de Shallow Grave."],
+			"tag": "dazzle",
+			"id": 49
+		},
+		{
+			"name": "Clockwerk",
+			"tips": ["Le Battery Assault du Clockwerk continuera jusqu'à sa fin même si le Clockwerk est réduit au silence ou étourdi. Battery Assault sera interrompu si Clockwerk est tué.", "Le Hookshot du Clockwerk étourdit ses ennemis pendant plusieurs secondes, ce qui lui permet de se repositionner et de placer stratégiquement ses Power Cogs, qui poussent ses ennemis dans la direction choisie et les étourdissent davantage.", "Utilisez un Force Staff pour sortir un allié des Power Cogs de Clockwerk.", "Le Hookshot accrochera le Clockwerk à n'importe quelle unité, ennemie ou alliée, ce qui peut lui permettre de s'échapper.", "La Battery Assault du Clockwerk permet d'immobiliser les ennemis avec des sorts à canalisation ou des temps d'incantation importants.", "La Rocket Flare du Clockwerk permet de repérer les mouvements ennemis et de repousser les creeps ennemis qui sont loin de l'équipe.", "Une Black King Bar permet d'éviter la plupart des dégâts infligés par le Clockwerk. Cependant, son Hookshot étourdira même une cible immunisée aux sorts."],
+			"tag": "rattletrap",
+			"id": 50
+		},
+		{
+			"name": "Leshrac",
+			"tips": ["Le Diabolic Edict de Leshrac inflige davantage de dégâts aux bâtiments ; cela peut s'avérer très pratique pour les détruire et gagner de l'espace sur la carte."],
+			"tag": "leshrac",
+			"id": 51
+		},
+		{
+			"name": "Nature's Prophet",
+			"tips": ["Les arbres créés par le Sprout du Nature's Prophet peuvent être coupés à l'aide d'une Quelling Blade ou mangés à l'aide d'un Tango."],
+			"tag": "furion",
+			"id": 52
+		},
+		{
+			"name": "Lifestealer",
+			"tips": ["Open Wounds du Lifestealer lui permet de voler la vie de sa victime en l'attaquant physiquement ou avec des sorts."],
+			"tag": "life_stealer",
+			"id": 53
+		},
+		{
+			"name": "Dark Seer",
+			"tips": ["Les Ion Shells du Dark Seer infligent des dégâts aux unités à proximité, même si elles sont invisibles."],
+			"tag": "dark_seer",
+			"id": 54
+		},
+		{
+			"name": "Clinkz",
+			"tips": ["Les Searing Arrows du Clinkz permettent à ses attaques d'infliger des dégâts physiques supplémentaires."],
+			"tag": "clinkz",
+			"id": 55
+		},
+		{
+			"name": "Omniknight",
+			"tips": ["Purification de l'Omniknight inflige des dégâts purs ; ils ne peuvent pas être réduits par la résistance à la magie."],
+			"tag": "omniknight",
+			"id": 56
+		},
+		{
+			"name": "Enchantress",
+			"tips": ["L'effet négatif procuré par la capacité Untouchable de l'Enchantress peut être dissipé grâce à l'immunité aux sorts, ou en attaquant une autre cible pendant l'effet.", "Nature's Attendants de Enchantress cible au hasard des unités alliées qui ont subi des dégâts et sont situées à proximité. Cette capacité ne guérit pas aussi efficacement les héros si elle est lancée près de creeps alliés blessés.", "Enchant de Enchantress inflige une dissipation basique à la cible."],
+			"tag": "enchantress",
+			"id": 57
+		},
+		{
+			"name": "Huskar",
+			"tips": ["Les Burning Spears d'Huskar infligent des dégâts magiques supplémentaires, ou des dégâts purs si le talent du niveau 25 est choisi. Burning Spears ne peut pas être utilisé sur les bâtiments.", "Life Break de Huskar lui accorde une dissipation de sort basique ainsi qu'une immunité aux sorts pendant son saut."],
+			"tag": "huskar",
+			"id": 58
+		},
+		{
+			"name": "Night Stalker",
+			"tips": ["Les bonus nocturnes du Night Stalker s'appliquent également pendant l'Eclipse de Luna."],
+			"tag": "night_stalker",
+			"id": 59
+		},
+		{
+			"name": "Broodmother",
+			"tips": ["Les Spiderlings de la Broodmother peuvent faire apparaître des Spiderites en tuant une unité."],
+			"tag": "broodmother",
+			"id": 60
+		},
+		{
+			"name": "Bounty Hunter",
+			"tips": ["La capacité Track de Bounty Hunter permet aux alliés qui sont dans un rayon de 1 200 de la victime d'obtenir de l'or supplémentaire. Bounty Hunter, quant à lui, obtient l'or supplémentaire même s'il n'est pas dans ce rayon.", "Effectuer un alt-clic sur l'icône de l'effet négatif du Track affiche le montant d'or détenu par la cible."],
+			"tag": "bounty_hunter",
+			"id": 61
+		},
+		{
+			"name": "Weaver",
+			"tips": ["Les bébés Weavers infligent des dégâts qui ignorent l'évasion, mais qui peuvent être réduits grâce à l'armure ou à des effets de blocage de dégâts."],
+			"tag": "weaver",
+			"id": 62
+		},
+		{
+			"name": "Jakiro",
+			"tips": ["Le Liquid Fire du Jakiro affecte les bâtiments ; cela peut s'avérer très pratique pour les détruire et gagner de l'espace sur la carte."],
+			"tag": "jakiro",
+			"id": 63
+		},
+		{
+			"name": "Batrider",
+			"tips": ["Une cible sous l'effet du Sticky Napalm du Batrider subit des dégâts magiques supplémentaires uniquement lorsque ce dernier l'attaque."],
+			"tag": "batrider",
+			"id": 64
+		},
+		{
+			"name": "Chen",
+			"tips": ["Lorsque la capacité Penitence de Chen est utilisée sur un ennemi, les alliés qui l'attaquent voient leur vitesse d'attaque augmenter."],
+			"tag": "chen",
+			"id": 65
+		},
+		{
+			"name": "Spectre",
+			"tips": ["La capacité Dispersion de la Spectre renvoie les dégâts subis à ses ennemis. Le type de dégâts est identique. Plus la cible est proche de la Spectre, plus les dégâts renvoyés sont importants."],
+			"tag": "spectre",
+			"id": 66
+		},
+		{
+			"name": "Doom",
+			"tips": ["La capacité Doom du Doom inflige des dégâts purs ; ils ne peuvent pas être réduits par l'armure ou la résistance à la magie.", "Devour accorde au Doom non seulement la capacité active de l'unité ciblée, mais également ses capacités passives et ses auras, ce qui le rend indispensable lors des combats.", "Une Linken's Sphere permet de bloquer le Doom du Doom. Le Doom pour contrer cet objet en utilisant Devour sur un creep neutre possédant une capacité ciblée, tel qu'un Satyr Banisher, ou en fabriquant un objet actif, tel qu'une Heaven's Halberd.", "Scorched Earth inflige des dégâts aux ennemis à proximité et augmente la vitesse de déplacement de Doom.", "Un héros sous l'effet de Doom peut être sacrifié par ses alliés lorsque ses PV tombent en dessous de 25 %. Sacrifier un allié n'accordera aucune pièce d'or ni expérience au Doom ennemi.", "L'Aghanim's Scepter améliore la capacité Doom et permet d'interrompre une cible. Cela peut s'avérer très utile contre des héros avec des capacités passives puissantes, tels que la Phantom Assassin ou le Spirit Breaker."],
+			"tag": "doom_bringer",
+			"id": 67
+		},
+		{
+			"name": "Ancient Apparition",
+			"tips": ["L'Ice Blast de l'Ancient Apparition empêche les unités ciblées de se soigner. Si les PV d'un ennemi descendent en dessous d'un certain seuil, il mourra."],
+			"tag": "ancient_apparition",
+			"id": 68
+		},
+		{
+			"name": "Ursa",
+			"tips": ["La capacité Fury Swipes d'Ursa lui permet d'infliger des dégâts physiques supplémentaires lorsqu'il attaque à plusieurs reprises la même cible. Fury Swipes ne fonctionne pas sur les bâtiments, mais fonctionne sur Roshan."],
+			"tag": "ursa",
+			"id": 69
+		},
+		{
+			"name": "Spirit Breaker",
+			"tips": ["La Charge of Darkness du Spirit Breaker peut être utilisée pour déclencher la Linken's Sphere d'un ennemi à n'importe quelle portée, du moment que le Spirit Breaker peut le voir."],
+			"tag": "spirit_breaker",
+			"id": 70
+		},
+		{
+			"name": "Gyrocopter",
+			"tips": ["L'Homing Missile du Gyrocopter peut suivre les cibles invisibles, mais ne permet pas de les voir."],
+			"tag": "gyrocopter",
+			"id": 71
+		},
+		{
+			"name": "Alchemist",
+			"tips": ["L'or que l'Alchemist gagne grâce à Greevil's Greed est non fiable.", "L'Acid Spray de l'Alchemist inflige des dégâts physiques et réduit l'armure, ce qui permet de tuer plus facilement Roshan ou des Ancients neutres.", "Avec une bonne synchronisation, l'étourdissement d'Unstable Concoction de l'Alchemist peut être évité à l'aide de Manta Style ou de l'Eul's Scepter of Divinity, y compris par l'Alchemist lui-même.", "Si Alchemist est réduit au silence ou si aucun héros ennemi n'est à proximité au moment où l'Unstable Concoction atteint son plein potentiel, Alchemist sera étourdi, permettant aux ennemis de l'attaquer.", "Le bonus de la rune de Bounty accordé par la capacité Greevil's Greed de l'Alchemist n'est effectif que pour l'Alchemist lui-même, peu importe l'allié qui récupère la rune.", "La Chemical Rage d'Alchemist lui accorde une régénération de PV importante qui peut être réduite par une Spirit Vessel ou l'Ice Blast de l'Ancient Apparition.", "Lorsque l'Alchemist possède l'Aghanim's Scepter, il peut faire fondre un autre Aghanim's Scepter et accorder à un de ses alliés ses pouvoirs."],
+			"tag": "alchemist",
+			"id": 72
+		},
+		{
+			"name": "Invoker",
+			"tips": ["Le Sun Strike de l'Invoker inflige des dégâts purs ; ils ne peuvent pas être réduits par la résistance à la magie, ni évités par l'immunité aux sorts."],
+			"tag": "invoker",
+			"id": 73
+		},
+		{
+			"name": "Silencer",
+			"tips": ["Les Glaives of Wisdom du Silencer infligent des dégâts purs ; ils ne peuvent pas être réduits par la résistance à la magie, mais sont bloqués par l'immunité aux sorts, sauf si le Silencer possède un Aghanim's Scepter."],
+			"tag": "silencer",
+			"id": 74
+		},
+		{
+			"name": "Outworld Devourer",
+			"tips": ["L'Arcane Orb de l'Outworld Devourer inflige des dégâts purs ; ils ne peuvent pas être réduits par la résistance à la magie, mais sont bloqués par l'immunité aux sorts."],
+			"tag": "obsidian_destroyer",
+			"id": 75
+		},
+		{
+			"name": "Lycan",
+			"tips": ["La capacité Howl de Lycan affecte tous les alliés, peu importe leur distance.", "Pendant Shapeshift, Lycan accorde des bonus de coup critique et de vitesse de mouvement à toutes les unités qu'il contrôle, y compris les unités invoquées avec un Necronomicon."],
+			"tag": "lycan",
+			"id": 76
+		},
+		{
+			"name": "Brewmaster",
+			"tips": ["À la fin de Primal Split du Brewmaster, ce dernier essaiera de réapparaître à la position de l'être élémentaire Earth s'il est vivant, puis de l'être élémentaire Storm s'il est vivant, et enfin à la position de l'être élémentaire Fire.", "Une Monkey King Bar ou un Bloodthorn permettent de contrer efficacement l'évasion de Druken Brawler de Brewmaster.", "Quand le coup critique et l'esquive de Drunken Brawler sont chargés, le corps de Brewmaster commence à fumer.", "Lorsque Primal Split est activé, les auras du Brewmaster, comme celles de la Radiance ou de Vladmir's Offering, affectent les unités à proximité de l'être élémentaire Earth. S'il meurt, les unités à proximité de l'être élémentaire Storm, et si ce dernier meurt, les unités à proximité de l'être élémentaire Fire.", "Le temps d'incantation du Primal Split du Brewmaster est significatif et peut être contré en l'étourdissant ou en le réduisant au silence.", "L'être élémentaire Storm du Brewmaster peut utiliser la capacité Dispel Magic pour annuler son propre Cyclone."],
+			"tag": "brewmaster",
+			"id": 77
+		},
+		{
+			"name": "Shadow Demon",
+			"tips": ["Lorsque la capacité Soul Catcher de Shadow Demon est utilisée, tous les ennemis se trouvant dans la zone perdent temporairement un pourcentage de leurs PV actuels. Soul Catcher peut être utilisé sur les cibles bannies par Disruption."],
+			"tag": "shadow_demon",
+			"id": 78
+		},
+		{
+			"name": "Lone Druid",
+			"tips": ["Le Spirit Bear du Lone Druid inflige des dégâts supplémentaires aux bâtiments ; cela peut s'avérer très pratique pour les détruire et gagner de l'espace sur la carte.", "Le Spirit Bear du Lone Druid peut récupérer les runes sans que le Lone Druid soit à proximité."],
+			"tag": "lone_druid",
+			"id": 79
+		},
+		{
+			"name": "Chaos Knight",
+			"tips": ["Lorsque le Chaos Knight lance Phantasm, il évite les projectiles et devient brièvement invulnérable et immunisé aux sorts.", "Le temps d'incantation du Chaos Bolt du Chaos Knight est significatif et son projectile est lent. Des objets comme la Blink Dagger ou l'Eul's Scepter of Divinity peuvent permettre de l'éviter.", "Activer l'Armlet of Mordiggian avant d'utiliser Phantasm accorde aux illusions du Chaos Knight des dégâts et des PV bonus.", "Les illusions du Phantasm du Chaos Knight peuvent être détruites instantanément par certaines capacités, comme le Mana Drain de Lion ou le Hex du Shadow Shaman.", "Reality Rift du Chaos Knight a un temps d'incantation significatif et peut encore être évité après que le Chaos Knight commence à lancer le sort.", "La plupart des dégâts du Chaos Knight sont des dégâts physiques et peuvent être réduits par l'armure ou nullifiés par le Ghost Scepter.", "Le Reality Rift du Chaos Knight téléportera toutes ses illusions, dont celles invoquées par le Manta Style et les runes d'Illusion."],
+			"tag": "chaos_knight",
+			"id": 80
+		},
+		{
+			"name": "Meepo",
+			"tips": ["Meepo gagne de l'XP ou de l'or lorsque ses clones en gagnent. Meepo meurt lorsqu'un de ces clones meurt."],
+			"tag": "meepo",
+			"id": 81
+		},
+		{
+			"name": "Treant Protector",
+			"tips": ["Lancer des sorts ou utiliser des objets n'interrompt pas l'invisibilité procurée par la capacité Nature's Guise du Treant Protector."],
+			"tag": "treant",
+			"id": 82
+		},
+		{
+			"name": "Ogre Magi",
+			"tips": ["La capacité Bloodlust de l'Ogre Magi peut être lancée sur les tours."],
+			"tag": "ogre_magi",
+			"id": 83
+		},
+		{
+			"name": "Undying",
+			"tips": ["Si une unité invisible se trouve à proximité d'une Tombstone de l'Undying, aucun zombie n'apparaîtra pour l'attaquer. Les zombies existants seront tués si l'unité qu'ils attaquent devient invisible."],
+			"tag": "undying",
+			"id": 84
+		},
+		{
+			"name": "Rubick",
+			"tips": ["Lorsque Rubick lance un sort volé, aucun temps d'incantation n'est appliqué, même si ce sort dispose normalement d'un temps d'incantation (à quelques exceptions)."],
+			"tag": "rubick",
+			"id": 85
+		},
+		{
+			"name": "Disruptor",
+			"tips": ["Le Thunder Strike du Disruptor émet une pulsation toutes les deux secondes. Glimpse téléporte le héros ciblé à l'endroit où il se trouvait quatre secondes plus tôt. Vous pouvez utiliser Thunder Strike pour synchroniser votre Glimpse."],
+			"tag": "disruptor",
+			"id": 86
+		},
+		{
+			"name": "Nyx Assassin",
+			"tips": ["La Spiked Carapace du Nyx Assassin renvoie les dégâts, peu importe la distance de l'attaquant, et même s'il est invisible."],
+			"tag": "nyx_assassin",
+			"id": 87
+		},
+		{
+			"name": "Naga Siren",
+			"tips": ["Pendant le lancement de Mirror Image, la Naga Siren évite les projectiles et devient brièvement invulnérable et immunisée aux sorts.", "Song of the Siren de Naga Siren n'endort pas les ennemis immunisés contre les sorts, ce qui peut être utilisé pour isoler un héros immunisé contre les sorts de l'équipe adverse."],
+			"tag": "naga_siren",
+			"id": 88
+		},
+		{
+			"name": "Keeper of the Light",
+			"tips": ["Quand Keeper of the Light possède l'Aghanim's Scepter, sa capacité Illuminate peut soigner pendant le jour."],
+			"tag": "keeper_of_the_light",
+			"id": 89
+		},
+		{
+			"name": "Io",
+			"tips": ["Lorsque Io utilise Tether sur un allié, il se déplace à la même vitesse que celui-ci."],
+			"tag": "wisp",
+			"id": 90
+		},
+		{
+			"name": "Visage",
+			"tips": ["La capacité Gravekeeper's Cloak du Visage voit son efficacité diminuer à mesure que les ennemis l'attaquent, mais peut se régénérer rapidement. Gravekeeper's Cloak affecte également les Familiars.", "Visage a une résistance à la magie de base de 10 %, moins que la plupart des héros qui ont 25 %. Cela rend Visage particulièrement vulnérable aux dégâts magiques si Gravekeeper's Cloak est enlevé.", "Grave Chill de Visage donne aussi des bonus de vitesse d'attaque et de déplacement aux Familiars à proximité.", "Les Familiars de Visage peuvent détruire les arbres en lançant Stone Form au-dessus de ceux-ci."],
+			"tag": "visage",
+			"id": 91
+		},
+		{
+			"name": "Slark",
+			"tips": ["Pendant que Slark est sous l'effet de Shadow Dance, il ne peut pas être révélé par True Sight."],
+			"tag": "slark",
+			"id": 92
+		},
+		{
+			"name": "Medusa",
+			"tips": ["Les dégâts et le mana volé par les Mystic Snakes de Medusa augmentent à chaque rebond consécutif. Le mana volé est un pourcentage du mana actuel de la cible."],
+			"tag": "medusa",
+			"id": 93
+		},
+		{
+			"name": "Troll Warlord",
+			"tips": ["La capacité Fervor du Troll Warlord gagne des charges même lorsque l'attaque est évitée."],
+			"tag": "troll_warlord",
+			"id": 94
+		},
+		{
+			"name": "Centaur Warrunner",
+			"tips": ["La capacité Retaliate de Centaur Warrunner renvoie les dégâts subis en dégâts physiques. Les dégâts infligés par les tours sont aussi renvoyés.", "Les dégâts magiques de la Double Edge, infligés aux victimes du Centaur Warrunner et à lui-même, peuvent être réduits par la résistance à la magie.", "Le Stampede du Centaur Warrunner affecte toutes les unités alliées et peut être utilisé pour les aider à attaquer ou à se replier, même si le Centaur Warrunner n'est pas à proximité.", "Le Rod of Atos ou l'Eul's Scepter of Divinity sont de bons moyens d'empêcher les alliés du Centaur Warrunner de se replier pendant le Stampede.", "Le Centaur Warrunner dispose d'une santé considérable ; ainsi, les capacités qui infligent des dégâts selon les PV d'un adversaire, comme le Feast du Lifestealer ou l'Heartstopper Aura du Necrophos, peuvent s'avérer très efficaces.", "L'immunité aux sorts, comme celle procurée par la Black King Bar, permet d'éviter la plupart des dégâts infligés par le Stampede, la Double Edge et le Hoof Stomp du Centaur Warrunner."],
+			"tag": "centaur",
+			"id": 95
+		},
+		{
+			"name": "Magnus",
+			"tips": ["La capacité Empower de Magnus permet à la cible d'infliger des dégâts physiques dans une zone."],
+			"tag": "magnataur",
+			"id": 96
+		},
+		{
+			"name": "Timbersaw",
+			"tips": ["Lorsque le Timbersaw est interrompu, il ne gagne aucune charge de Reactive Armor, mais les charges actuelles continuent à lui accorder de l'armure et de la régénération de PV."],
+			"tag": "shredder",
+			"id": 97
+		},
+		{
+			"name": "Bristleback",
+			"tips": ["Lorsque le Bristleback est interrompu, sa capacité Bristleback est désactivée, le rendant plus facile à tuer.", "Lorsque le Bristleback possède un Aghanim's Scepter, sa capacité Viscous Nasal Goo n'est plus bloquée par la Linken's Sphere.", "Le Bristleback peut lancer Viscous Nasal Goo sur des ennemis plusieurs fois, ce qui réduit grandement leur armure et leur vitesse de déplacement. Cela s'avère très utile contre Roshan.", "Empêcher le Bristleback de lancer continuellement Quill Spray, notamment en le réduisant au silence, réduit grandement les dégâts qu'il inflige.", "Les capacités du Bristleback n'ont pas besoin de toucher les unités ennemies pour déclencher Warpath.", "Les dégâts infligés par le Quill Spray du Bristleback sont des dégâts physiques et peuvent être réduits par l'armure.", "Le Bristleback aime beaucoup lancer ses sorts : utilisez un Magic Stick ou une Magic Wand pour le contrer."],
+			"tag": "bristleback",
+			"id": 98
+		},
+		{
+			"name": "Tusk",
+			"tips": ["Plus il y a de héros dans la Snowball du Tusk, plus elle inflige de dégâts."],
+			"tag": "tusk",
+			"id": 99
+		},
+		{
+			"name": "Skywrath Mage",
+			"tips": ["L'Arcane Bolt du Skywrath Mage inflige davantage de dégâts proportionnellement à son intelligence."],
+			"tag": "skywrath_mage",
+			"id": 100
+		},
+		{
+			"name": "Abaddon",
+			"tips": ["La capacité Borrowed Time d'Abaddon peut toujours être activée manuellement lorsqu'il est interrompu.", "Les dégâts de zone de l'Aphotic Shield d'Abaddon sont indépendants du montant des dégâts absorbés.", "Abaddon peut utiliser son Aphotic Shield pour dissiper la plupart des effets négatifs et des étourdissements des héros alliés.", "L'effet négatif du Curse of Avernus d'Abaddon peut être appliqué aux bâtiments ; cela peut s'avérer très pratique pour les détruire et gagner de l'espace sur la carte.", "Le Borrowed Time d'Abaddon peut être activé manuellement même lorsqu'il est étourdi ou endormi ; cela supprime la plupart des effets négatifs.", "Si Abaddon reçoit plus de dégâts que le seuil de Borrowed Time, l'effet de cette capacité ne s'activera pas automatiquement.", "Empêcher Abaddon de subir des dégâts pendant la durée de Borrowed Time, par exemple avec un Eul's Scepter of Divinity, est un excellent moyen de le maintenir en place jusqu'à la fin de l'effet.", "Avec Aphotic Shield, Abaddon n'infligera pas de dégâts aux unités qu'il ne voit pas. Vous pouvez utiliser le brouillard de guerre ou devenir invisible pour éviter les dégâts provoqués par Aphotic Shield."],
+			"tag": "abaddon",
+			"id": 101
+		},
+		{
+			"name": "Elder Titan",
+			"tips": ["La capacité Natural Order de l'Elder Titan réduit l'armure des ennemis proches. Les unités à proximité du Spirit de l'Elder Titan voient leur résistance à la magie réduite."],
+			"tag": "elder_titan",
+			"id": 102
+		},
+		{
+			"name": "Legion Commander",
+			"tips": ["Bien que la Legion Commander puisse initier un duel avec un ennemi immunisé aux sorts, une Linken's Sphere empêchera le duel."],
+			"tag": "legion_commander",
+			"id": 103
+		},
+		{
+			"name": "Ember Spirit",
+			"tips": ["Les Searing Chains de l'Ember Spirit peuvent interrompre une canalisation (par exemple, un ennemi qui utilise un Town Portal Scroll pour s'enfuir)."],
+			"tag": "ember_spirit",
+			"id": 104
+		},
+		{
+			"name": "Earth Spirit",
+			"tips": ["La capacité Boulder Smash de l'Earth Spirit n'étourdit pas l'unité ciblée, mais uniquement les ennemis touchés par le Remnant frappé.", "L'Earth Spirit peut utiliser des objets et des capacités pendant Rolling Boulder, ce qui lui permet de préparer ses prochaines attaques.", "Se placer devant l'Earth Spirit alors qu'il utilise Rolling Boulder est un bon moyen de l'empêcher de s'échapper.", "Avec un bon timing, l'Earth Spirit peut utiliser le même Stone Remnant pour étourdir et réduire au silence un ennemi, il peut alors garder des Remnants pour d'autres occasions.", "Vous pouvez utiliser Boulder Smash sur des alliés pour les mettre en sécurité ou les pousser vers une position plus avantageuse.", "Apprendre le talent « Geomagnetic Grip peut cibler les alliés » au niveau 25 permet à l'Earth Spirit de sauver facilement ses alliés lorsqu'ils sont attaqués.", "Enchant Remnant rend la cible temporairement invulnérable, Earth Spirit peut utiliser cette capacité pour sauver des alliés en danger."],
+			"tag": "earth_spirit",
+			"id": 105
+		},
+		{
+			"name": "Terrorblade",
+			"tips": ["La capacité Sunder de Terrorblade ne peut pas être utilisée sur un ennemi immunisé aux sorts. La Linken's Sphere peut également bloquer Sunder."],
+			"tag": "terrorblade",
+			"id": 106
+		},
+		{
+			"name": "Phoenix",
+			"tips": ["Phoenix peut utiliser des objets et lancer des capacités pendant Icarus Dive."],
+			"tag": "phoenix",
+			"id": 107
+		},
+		{
+			"name": "Oracle",
+			"tips": ["La capacité Fate's Edict de l'Oracle bloque tous les dégâts magiques que subit la cible, dont les dégâts de Purifying Flames. Ce combo peut être utilisé pour soigner les alliés de l'Oracle.", "Le Fortune's End de l'Oracle peut annuler beaucoup d'effets positifs sur les héros ennemis, y compris l'effet de guérison de Purifying Flames.", "La capacité ultime False Promise de l'Oracle double tous les soins effectués sur la cible pendant qu'elle est active. Cela inclut des objets comme l'Urn of Shadows, la Magic Wand et le Mekansm.", "Pendant False Promise de l'Oracle, l'orbe frontal sera rouge si la cible a subi des dégâts mortels et qu'il est prévu qu'elle mourra à l'expiration de l'effet."],
+			"tag": "oracle",
+			"id": 108
+		},
+		{
+			"name": "Techies",
+			"tips": ["Les Proximity Mines des Techies sont automatiquement révélés lorsqu'une unité ennemie marche à proximité. Les Statis Traps et les Remotes Mines nécessitent True Sight pour être révélés.", "La capacité Blast Off! de Techies peut être interrompue en appliquant des effets de déplacement forcé (comme le Force Staff) pendant le saut."],
+			"tag": "techies",
+			"id": 109
+		},
+		{
+			"name": "Winter Wyvern",
+			"tips": ["Les fragments du Splinter Blast de la Winter Wyvern toucheront les unités invisibles ainsi que les unités qui se trouvent dans le brouillard de guerre.", "Les unités affectées par Winter's Curse de Winter Wyvern ne peuvent pas subir de dégâts."],
+			"tag": "winter_wyvern",
+			"id": 110
+		},
+		{
+			"name": "Arc Warden",
+			"tips": ["Les alliés se trouvant dans le Magnetic Field de l'Arc Warden évitent les attaques qui proviennent de l'extérieur du champ, dont les attaques des tours.", "Les bâtiments alliés qui se trouvent dans le Magnetic Field d'Arc Warden évitent les attaques.", "Le Tempest Double d'Arc Warden dissipera une Smoke of Deceit ennemie, contrairement à d'autres unités invoquées.", "Les dégâts et le ralentissement infligés par Flux d'Arc Warden peuvent être évités en restant près d'une unité alliée."],
+			"tag": "arc_warden",
+			"id": 111
+		},
+		{
+			"name": "Underlord",
+			"tips": ["La capacité Firestorm de l'Underlord inflige un pourcentage des PV maximum de l'ennemi sous forme de dégâts magiques, et ce chaque seconde. Cela rend cette capacité très efficace contre certains héros."],
+			"tag": "abyssal_underlord",
+			"id": 112
+		},
+		{
+			"name": "Monkey King",
+			"tips": ["Le Boundless Strike du Monkey King ne peut pas être esquivé."],
+			"tag": "monkey_king",
+			"id": 113
+		},
+		{
+			"name": "Pangolier",
+			"tips": ["Le Swashbuckle du Pangolier ne peut pas être évité."],
+			"tag": "pangolier",
+			"id": 114
+		},
+		{
+			"name": "Dark Willow",
+			"tips": ["Lorsque la Dark Willow est sous l'effet de Shadow Realm, elle ne peut pas être révélée par True Sight."],
+			"tag": "dark_willow",
+			"id": 115
+		},
+		{
+			"name": "Snapfire",
+			"tips": ["Les attaques de Snapfire placent d'abord le debuff, puis appliquent leurs propres dégâts.", "Une charge d'attaque est perdue chaque fois qu'une attaque est exécutée, quel qu'en soit le résultat. Cela signifie que les attaques manquées utilisent également des charges."],
+			"tag": "snapfire",
+			"id": 116
+		},
+		{
+			"name": "Void Spirit",
+			"tips": "",
+			"tag": "void_spirit",
+			"id": 117
+		}
+	]
+}
